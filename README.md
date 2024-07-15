@@ -54,13 +54,13 @@ Steps:
 1. Build the Docker image with
 
     ```console
-    docker build -t foodftrucksapi .
+    docker build -t foodtrucksapi .
     ```
 
 2. Run the Docker container:
 
     ```console
-    docker run -d -p 5000:5000 --name foodtrucks-container foodftrucksapi
+    docker run -d -p 5000:5000 --name foodrucks-container foodtrucksapi
     ```
 
 3. Access the API at <http://localhost:5000> and Swagger UI at <http://localhost:5000/swagger>.
