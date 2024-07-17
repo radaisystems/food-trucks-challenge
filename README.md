@@ -16,20 +16,20 @@ We use this criteria to review:
 
 - You don't need to make any changes to the code or fix any bugs, but feel free to report them.
 - We will assess the quality of your test cases and the reasoning behind them.
-- For automated tests, we will evaluate their coverage, quality, and efficiency.
+- We will evaluate automated tests' coverage, quality, and efficiency.
 
 ### What to send back to our team
 
-When done, please send an email back to your point of contact with a compressed (zip) file of your Github project repo. For explaining about the tests, feel free to add to a document of your choice and send it alongside the zip file.
+When done, please send an email to your point of contact with a compressed (zip) file of your Github project repo. To explain the tests, please add to a document of your choice and send it alongside the zip file.
 
 ## Project Documentation
 
-This is a very simple API built with ASP.NET Core Web API and SQLite. At startup, the app checks if the database is already created. If not, it will create a SQLite database and insert the CSV file contents into a table to be used on the API.
+This simple API is built with ASP.NET Core Web API and SQLite. At startup, the app checks if the database has already been created. If not, it will create a SQLite database and insert the CSV file contents into a table to be used on the API.
 
 ### Running the Application
 
-There are a few options to run the application. Check 2 examples below.
-**Note:** Due to how the application is built, it might take a while for it to run on the first start.
+There are a few options for running the application. Please take a look at 2 examples below.
+**Note:** Due to how the application is built, running on the first start might take a short while.
 
 #### Running Locally
 
